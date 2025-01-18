@@ -1,30 +1,43 @@
-# shvirtd-example-python
+## Домашнее задание Домашнее задание по занятию "Практическое применение Docker"
+### Задание 1
 
-Example Flask-application for docker compose training.
-## Installation
-First, you need to clone this repository:
+https://github.com/olyavoznuyk/shvirtd-example-python
 
-```bash
-git clone https://github.com/netology-code/shvirtd-example-python.git
+### Задание 2
+
+![alt text](./img/sql.png)
+
+### Задание 4
+
+* screenshot 
+
+![alt text](./img/cloud.png)
+
+* bash script 
+
+```
+REPO_URL="https://github.com/olyavoznuyk/shvirtd-example-python.git"
+TARGET_DIR="/opt/shvirtd-example-python"
+
+git clone "$REPO_URL" "$TARGET_DIR"
+
+cd "$TARGET_DIR" || exit
+
+docker compose up -d
 ```
 
-Now, we will need to create a virtual environment and install all the dependencies:
+* git link
 
-```bash
-python3 -m venv venv  # on Windows, use "python -m venv venv" instead
-. venv/bin/activate   # on Windows, use "venv\Scripts\activate" instead
-pip install -r requirements.txt
-python main.py
-```
-You need to run Mysql database and provide following ENV-variables for connection:  
-- DB_HOST (default: '127.0.0.1')
-- DB_USER (default: 'app')
-- DB_PASSWORD (default: 'very_strong')
-- DB_NAME (default: 'example')
+https://github.com/olyavoznuyk/shvirtd-example-python
 
-The applications will always running on http://localhost:5000.  
-To exit venv just type ```deactivate```
+### Задание 6
 
-## License
+![alt text](./img/hash.png)
 
-This project is licensed under the MIT License (see the `LICENSE` file for details).
+![alt text](./img/bin.png)
+
+![alt text](./img/tar.png)
+
+### Задание 6.1
+
+![alt text](./img/cp.png)
